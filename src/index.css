@@ -1,0 +1,77 @@
+
+
+
+@font-face {
+  font-family:" myFirstFont";
+  src: url("./fonts/CharlesWright-Bold.woff");
+  font-weight: bold;
+}
+
+body {
+  margin: 0; 
+}
+
+
+.boxInput{
+  width: 12%;
+  padding: 33px;
+  float: left;
+}
+
+#pilo:hover{
+  transform-style: (1,-1);
+}
+#pilo{
+ 
+  transform-style: preserve-3d;
+   top: 20%; 
+   right: 30%;
+   font-weight: 700;
+   position: absolute;
+   font-family:" myFirstFont";
+
+}
+#pilo::after{
+  
+  top:0;
+  left:0;
+  position: absolute;
+}
+#pilo::before{
+  
+  top:0;
+  left:0;
+  position: absolute;
+}
+.inputColor{
+  border:none;
+  width:20%;
+  height:2vh;
+  margin-left: 20px;
+  }
+  .textColor{
+    width:64%;
+  }
+  canvas{
+    position: absolute;
+    left: 250px;
+    top: 0;
+  }
+  .blok{
+    display: block;
+    
+  }
+  .none{
+    display: none;
+  }
+  .hd{
+    cursor: pointer;
+  }
+  .hdRed{
+    cursor: pointer;
+    color: red;
+  }
+  label{
+    font-size: 1.3rem !important;
+  }
+
